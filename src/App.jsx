@@ -6,6 +6,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 import Header from './Components/comons/Header';
 import Footer from './Components/comons/Footer';
+import Carrinho from './pages/Carrinho';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Header />  
           <Routes>
               <Route path="/" element={ <Principal/> } />
-              {/* <Route path="/produto/:id" element={ <Produto  /> } /> */}
+              <Route path="/carrinho" element={ <Carrinho/> } /> 
               <Route path="*" element={<Principal />} />
           </Routes>
           <Footer />
