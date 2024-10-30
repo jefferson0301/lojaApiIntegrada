@@ -1,0 +1,50 @@
+.containerProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1%;
+}
+
+.containerProduto{
+    text-align: center;
+    /* background-color: aqua; */
+    width: 25%;
+    padding: .5rem;
+    border: 5px solid aqua;
+    margin:  .5rem auto;
+    border-radius: 8px;
+}
+
+.titulo{
+    
+    text-align: center;
+    font-size: .9rem;
+    margin:  .5rem 0;
+}
+
+.imagem{
+    width: 70%;
+    margin: 0 center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem; 
+}
+
+.descricao{
+    font-size: .7rem;
+    margin: .5rem 0;
+}
+
+.preco{
+    margin-top: .5rem;
+}
+
+.btn_comprar{
+    margin-top: .5rem;
+    padding: .25rem;
+    border-radius: 8px;
+}

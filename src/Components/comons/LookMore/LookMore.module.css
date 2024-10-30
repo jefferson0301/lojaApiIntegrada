@@ -1,0 +1,20 @@
+.texto{
+    text-align: left;
+    font-size: .7rem;
+    margin: .5rem 0;
+    line-height: 15px;
+}
+
+.btn_verMais{
+    color: blue;
+    background-color: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.btn_verMais:hover{
+    
+    color: aqua;
+}
